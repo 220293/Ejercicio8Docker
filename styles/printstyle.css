@@ -1,0 +1,45 @@
+* {
+    color: black;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header p {
+    display: none;
+}
+
+nav {
+    display: none;
+}
+
+p {
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 14px;
+}
+
+img {
+    display: none;
+}
+
+section#formulario {
+    display: none;
+}
+
+h1, footer p {
+    text-align: center;
+}
+
+@page {
+    size: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+  
+  

@@ -1,0 +1,48 @@
+header p {
+    display: none;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+nav ul li:first-child, nav ul li:last-child{
+    display: none;
+}
+
+article#introduccion {
+    display: flex;
+    flex-direction: column;
+}
+
+article#introduccion img {
+    width: 55%;
+    height: auto;
+    align-self: center;
+}
+
+section#sitios-interes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+section#sitios-interes article {
+    display: flex;
+    flex-direction: column;
+}
+
+section#sitios-interes article img {
+    width: 65%;
+    height: auto;
+    align-self: center;
+}
+
+section#sitios-interes article p {
+    font-size: 0.8em;
+}
+
+section#formulario {
+    width: 95%;
+    margin: 0 auto;
+}
